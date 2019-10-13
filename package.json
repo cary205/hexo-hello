@@ -6,10 +6,11 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
+    "gh-pages": "gh-pages -d public",
     "server": "hexo server"
   },
   "hexo": {
-    "version": ""
+    "version": "3.9.0"
   },
   "dependencies": {
     "hexo": "^3.9.0",
@@ -21,5 +22,8 @@
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-server": "^0.3.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
